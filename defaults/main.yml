@@ -1,0 +1,5 @@
+---
+# defaults file for sslscan
+
+sslscan_app: sslscan
+sslscan_desired_state: present
