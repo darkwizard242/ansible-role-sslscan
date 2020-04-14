@@ -1,0 +1,8 @@
+---
+# tasks file for sslscan - EL
+
+- name: "Installing {{ sslscan_app }} on EL based systems."
+  yum:
+    name: "{{ sslscan_app }}"
+    state: "{{ sslscan_desired_state }}"
+    update_cache: yes
