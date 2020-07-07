@@ -1,7 +1,7 @@
 ---
-# tasks file for sslscan - EL
+# tasks file for sslscan - EL Family
 
-- name: "Installing {{ sslscan_app }} on EL based systems."
+- name: EL Family | Installing {{ sslscan_app }}
   yum:
     name: "{{ sslscan_app }}"
     state: "{{ sslscan_desired_state }}"
