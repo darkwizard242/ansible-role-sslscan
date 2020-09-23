@@ -17,7 +17,6 @@ env:
     - DISTRO: ubuntu-18.04
     - DISTRO: ubuntu-16.04
     - DISTRO: debian-stretch
-    - DISTRO: debian-jessie
 
 addons:
   sonarcloud:
