@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: sslscan
-  author: Ali Muhammad
+  author: darkwizard242
   description: Installation/Uninstallation of `sslscan`. Used for performing SSL/TLS scans.
   company: none
   license: MIT
