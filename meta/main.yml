@@ -12,14 +12,9 @@ galaxy_info:
       versions:
         - noble
         - jammy
-        - bionic
     - name: Debian
       versions:
         - bullseye
-    - name: EL
-      versions:
-        - 8
-        - 7
 
   galaxy_tags:
     - sslscan
